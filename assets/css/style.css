@@ -1,0 +1,50 @@
+h1 {
+  color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+nav {
+  color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+body {
+  background-color: lime;
+  color: darkgreen;
+}
+
+h2 {
+  color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+img-container {
+  color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+

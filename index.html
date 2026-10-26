@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olivia's First Website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
@@ -16,12 +17,13 @@
         <a href="contact.html">My goals</a>
     </nav>
     <main>
-        <section id="about">
+        <section id="about" class="content-card">
+
             <h2>About Me</h2>
             <p>I am a college student majoring in Information Technology. I work part time at a local 
                 burger and ice cream shop, and I am currently pregnant with my first born child.  </p>
         </section>
-        <section id="hobbies">
+        <section id="hobbies" class="content-card">
             <h2>My Hobbies</h2>
             <p>Here are a few things I like to do in my free time:</p>
             <ul>
@@ -30,12 +32,11 @@
                 <li>Collecting eggs from my chickens: I have 5 different breeds that give me different 
                     colors, so I am always excited to find out what colors I get each day. </li>
             </ul>     
-        <figure> 
-        <img src="minecraft.jpg" alt="Dappled Forest in Minecraft" width="300"
-        </figure>
-            </ul>
+        <div class="img-container">
+            <img src="minecraft.jpg" alt="Dappled Forest in Minecraft" width="300">
+        </div>
         </section>
-        <section id="goals">
+        <section id="goals" class="content-card">
             <h2>My Goals</h2>
             <p>I plan to get at least one entry level certification while I am in college. After that, 
                 I will be looking into positions in IT to hopefully gain experience before pursuing 
